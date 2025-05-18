@@ -59,3 +59,8 @@ app.get('/status', (req, res) => {
 app.listen(port, () => {
     console.log(`Server pulsa berjalan di http://localhost:${port}`);
 });
+
+
+"scripts": {
+  "start": "node server.js"
+}
